@@ -1,34 +1,10 @@
 from django.db import models
 
 # Create your models here.
+TODO:#x
 
+""" come back and check the code you wrote in board.py && transfer it into the class so you can start creating the classes
+
+looks like reds and dark blues can be hard coded, bc reds happen on the outside of the board at every 5 square && there is also a pattern for the dark blues
 """
-custom manager """
-# class WordManager(models.Manager):
-#     def create_word(self, word):
-#         word = self.create(word=word)
-#         return word
-
-
-# class Word(models.Models):
-#     word = models.CharField()
-
-#     @classmethod
-#     def create_word(cls, word):
-#         word = cls(word=word)
-#         objects = WordManager()
-
-
-#     # @classmethod
-#     # def create_word(cls, word):
-#     #     word = cls(word=word)
-#     #     objects = WordManager()
-
-
-# word = Word.objects.create_word("hell")
-
-    
-
-
-
-
+# class Board(models.Model):
